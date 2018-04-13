@@ -1,0 +1,393 @@
+.drawer {
+    height: 73%;
+    position: absolute;
+    z-index: 10;
+    top: 8%;
+    float: right;
+    width: 19%;
+    right: 15px;
+    background-color: black;
+    bottom: 87%;
+    overflow-y: scroll;
+    right: 0%;
+
+
+
+}
+
+.wanamo{
+    position: relative;
+    width: 34%;
+    right: 16%;
+}
+
+.moreAboutTitle{
+    position: relative;
+    right: 11%;
+    width: 10%;
+}
+
+.slower{
+    position: relative;
+    width: 12%;
+    right: 0%;
+}
+.fullList{
+    position: relative;
+    width: 9%;
+    right: -9%;
+}
+
+.socialMedia{
+    margin: 5px;
+}
+
+.close{
+    position: relative;
+    right: -19%;
+    width: 7%;
+}
+
+canvas{
+    position: relative;
+    z-index: 3;
+    left: 18%;
+
+}
+
+li {
+    list-style: none;
+}
+
+video {
+    position: absolute;
+    left: 247.833px
+}
+
+#newsFeed {
+    height: 2%;
+    position: relative;
+    left: 3%;
+    width: 300px;
+    color: white;
+    font-size: 14px;
+}
+
+.shareDiv{
+    position: relative;
+    width: 100%;
+    height: 15%;
+}
+.drawerButton {
+    float: left;
+    position: absolute;
+    right: 15px;
+    bottom: 85%;
+}
+
+
+.pluginName {
+    font-weight: bold;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    align-content: center;
+    margin: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 1%;
+}
+
+.remove {
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: absolute;
+    right: 2px;
+}
+
+
+.drawer::-webkit-scrollbar {
+    width: 10px;
+    height: 25px;
+    margin:150px;
+}
+
+.drawer::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+    color: white;
+    -webkit-border-radius: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: inset -1px -1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.drawer::-webkit-scrollbar-button {
+    width: 5px;
+    height: 0;
+    display: none;
+}
+
+.drawer::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.infoDinamicInfo {
+    height: 100px;
+    width: 100px;
+    margin: 15px;
+    left: 4%;
+    position: relative;
+}
+.infoDescription {
+    font-size: 13px;
+    font-family: Microsoft Sans Serif;
+    margin-top: 0;
+}
+
+.dinamicImg {
+    position: relative;
+    display: block;
+    width: 99%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    height: 35%;
+    left: 0%;
+}
+
+.infoDTI {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    width: 18%;
+    right: 82%;
+    background-color: #000;
+    height: 67%;
+    top: 50px;
+    overflow: scroll;
+
+}
+.infoDTI h3 {
+    font-size: 18px;
+    margin: 10px;
+}
+
+.imageDTI {
+    position: initial;
+    display: table-caption;
+    left: -128%;
+    width: 592%;
+    height: 48%;
+    background-color: rgba(0,0,0,0.7);
+    top: 40px;
+
+}
+
+.infoDetails {
+    position: relative;
+    z-index: 3;
+    height: 75%;
+    width: 100%;
+    font-size: 12px;
+}
+
+
+
+.buyButton {
+    position: relative;
+    top: 2%;
+    right: 8%;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.checkButton{
+    display:block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fullInfo {
+    position: relative;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.7);
+    display: block;
+    left: 18%;
+    width: 63%;
+    top: 56px;
+}
+
+.fullInfo dl dd {
+    font-weight: bold;
+    /* font-size: 18px; */    
+}
+dl {
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 80px;
+    text-align: left;
+}
+dt::after {
+    content: ":";
+}
+dd {
+    margin: 0 0 0 90px;
+    padding: 0 0 0.5em 0;
+}
+
+.mainLoop{
+    position: absolute;
+    width: 16%;
+    height: 10%;
+    background-color: #393839;
+    color: #e0e0e0;
+}
+
+.titleForImage{
+    color: white;
+    text-align: center;
+}
+
+#sliderIframe {
+    position: relative;
+    height: 172px;
+    width: 690px;
+    left: 4%;
+    bottom: 132px;
+}
+
+.carouselImg {
+    width : 50%;
+    height: 50%;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+    position: relative;
+
+}
+
+.gmail {
+    bottom: 25px;
+    left: 35%;
+}
+
+.facebook {
+    bottom: 25px;
+    left: 33%;
+}
+
+.twitter {
+    bottom: 25px;
+    left: 9%;
+}
+
+.videoTiming {
+    left: 44%;
+    bottom: 25px;
+
+}
+
+.link {
+    position: relative;
+    top: -5%;
+    right: -10%;
+    text-decoration: none;
+    color: black;
+}
+label{
+    color: white;
+}
+
+dl{
+    font-size: 12px;
+    font-family: Microsoft Sans Serif;
+}
+
+dd{
+    font-size: 12px;
+    font-family: Microsoft Sans Serif;
+}
+.ditailsTitle {
+    font-family: Microsoft Sans Serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+
+.infoDTI::-webkit-scrollbar {
+    width: 10px;
+    height: 25px;
+    margin:150px;
+}
+
+.infoDTI::-webkit-scrollbar-thumb {
+    height: 6px;
+    border: 4px solid rgba(255, 255, 255, 0);
+    background-clip: padding-box;
+    color: white;
+    -webkit-border-radius: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: inset -1px -1px 0px rgba(255, 255, 255, 0.05), inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.infoDTI::-webkit-scrollbar-button {
+    width: 5px;
+    height: 0;
+    display: none;
+}
+
+.infoDTI::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
